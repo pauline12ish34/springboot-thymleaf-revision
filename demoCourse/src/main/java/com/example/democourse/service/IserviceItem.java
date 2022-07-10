@@ -10,4 +10,5 @@ public interface IserviceItem {
     Item create(CreateItemDto dto);
     Optional<Item> getOne(Integer id);
     List<Item> getAll();
+//    Item updateItem(CreateItemDto dto,Integer id);
 }
